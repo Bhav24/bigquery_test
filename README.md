@@ -46,6 +46,9 @@ where
 GeoName not LIKE '%FL'
 LIMIT 1000
 
+SELECT SUM(Earnings_per_job_avg) GeoName FROM `bigquery-public-data.sdoh_bea_cainc30.fips` 
+LIMIT 1000
+
 
 
 
